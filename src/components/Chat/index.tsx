@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import ChatBot from 'react-native-chatbot-expo';
+import { CheckBox } from 'react-native-elements'
 
-import { Container, Header, Image } from './styles';
+import { Container, Header, Image, InfoText, ContainerCheck } from './styles';
 import { Feather as Icon } from '@expo/vector-icons';
 
 import Modal from '../../components/Modal';
@@ -14,6 +15,7 @@ import Result from '../../components/Result';
 const Chat: React.FC = (props) => {
   const [visible, setVisible] = useState<boolean>(false);
   const [name, setName] = useState<string>('');
+  const [checked, setChecked] = useState<boolean>(false);
 
   const steps = [
     {
@@ -311,6 +313,17 @@ const Chat: React.FC = (props) => {
           autoCapitalize='none'
           secureTextEntry={true}
         />
+
+        <ContainerCheck>
+          <CheckBox
+            containerStyle={{
+              borderColor: '#000'
+            }}
+            checked={checked}
+            onPress={() => setChecked(true)}
+          />
+          <InfoText>Autorizo que HelpDin acesse meus dados bancários</InfoText>
+        </ContainerCheck>
         <Button onPress={handleLogin}>Login</Button>
       </Modal>
 
