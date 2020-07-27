@@ -1,6 +1,6 @@
 <div align="center">
-![](.github/helpDin_1.gif)
-![](.github/helpDin_2.gif)
+  <img src="gif/helpDin_1.gif" width="40%"/>
+  <img src="gif/helpDin_2.gif" width="40%"/>
 </div>
 
 ## :computer: Projeto
