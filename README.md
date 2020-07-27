@@ -1,6 +1,6 @@
 <div align="center">
-  <img src="gif/helpDin_1.gif" width="40%"/>
-  <img src="gif/helpDin_2.gif" width="40%"/>
+  <img alt="1" title="Start Bot" src=".github/helpDin_1.gif" width='170px'/>
+  <img alt="2" title="End Bot" src=".github/helpDin_2.gif" width='170px'/>
 </div>
 
 ## :computer: Projeto
