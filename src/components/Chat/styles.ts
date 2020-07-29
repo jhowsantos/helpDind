@@ -25,3 +25,14 @@ export const Image = styled.Image`
   height: 52;
 `;
 
+export const InfoText = styled.Text`
+  font-size: 14;
+`;
+
+export const ContainerCheck = styled.View`
+  width: 270px;
+  align-items: center;
+  flex-direction: row;
+`;
+
+
